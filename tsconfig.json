@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
       "target": "es5",
-      "module": "commonjs",
+      "module": "es6",
+      "types": ["pixi.js"],
       "sourceMap": true,
       "outDir": "./public/dist",
-      "strict": true
+      "strict": true,
+      "noImplicitAny": true
     },
     "include": ["src"],
     "exclude": ["node_modules", "**/__tests__/*"]
